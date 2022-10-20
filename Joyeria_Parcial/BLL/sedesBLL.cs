@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Joyeria_Parcial.BLL
 {
-    public class sedesBLL
+    public class SedesBLL
     {
         private int id_sede;
         private string nombre_sede;
         private string ubicacion;
         private string telefono;
 
-        public sedesBLL(int id)
+        public SedesBLL(int id)
         {
             this.id_sede = id;
         }
-        public sedesBLL(int id_sede, string nombre_sede, string ubicacion, string telefono)
+        public SedesBLL(int id_sede, string nombre_sede, string ubicacion, string telefono)
         {
 
             this.Id_sede = id_sede;

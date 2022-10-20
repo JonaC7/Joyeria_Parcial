@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Joyeria_Parcial.DALL
+namespace Joyeria_Parcial.DAL
 {
-    class Database
+    class SedesDAL
     {
     }
 }

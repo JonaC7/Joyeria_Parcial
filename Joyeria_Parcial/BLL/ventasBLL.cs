@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Joyeria_Parcial.BLL
 {
-    public class ventasBLL
+    public class VentasBLL
     {
         private int id_venta;
         private int id_producto;
@@ -14,12 +14,12 @@ namespace Joyeria_Parcial.BLL
         private string precio;
         private int id_empleado;
 
-        public ventasBLL(int id)
+        public VentasBLL(int id)
         {
             this.Id_venta = id;
         }
 
-        public ventasBLL(int id_venta, int id_producto, int codigo_producto, string precio, int id_empleado)
+        public VentasBLL(int id_venta, int id_producto, int codigo_producto, string precio, int id_empleado)
         {
             this.Id_venta = id_venta;
             this.Id_producto = id_producto;

@@ -46,13 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLL\comprasBLL.cs" />
-    <Compile Include="BLL\empleadosBLL.cs" />
-    <Compile Include="BLL\productosBLL.cs" />
-    <Compile Include="BLL\proveedoraBLL.cs" />
-    <Compile Include="BLL\sedesBLL.cs" />
-    <Compile Include="BLL\ventasBLL.cs" />
-    <Compile Include="DALL\Database.cs" />
+    <Compile Include="BLL\ComprasBLL.cs" />
+    <Compile Include="BLL\EmpleadosBLL.cs" />
+    <Compile Include="BLL\ProductosBLL.cs" />
+    <Compile Include="BLL\ProveedoraBLL.cs" />
+    <Compile Include="BLL\SedesBLL.cs" />
+    <Compile Include="BLL\VentasBLL.cs" />
+    <Compile Include="DAL\ComprasDAL.cs" />
+    <Compile Include="DAL\Database.cs" />
+    <Compile Include="DAL\EmpleadosDAL.cs" />
+    <Compile Include="DAL\ProductosDAL.cs" />
+    <Compile Include="DAL\ProveedoraDAL.cs" />
+    <Compile Include="DAL\SedesDAL.cs" />
+    <Compile Include="DAL\VentasDAL.cs" />
     <Compile Include="joyeriaDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
