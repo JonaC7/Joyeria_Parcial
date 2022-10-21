@@ -30,12 +30,39 @@ namespace Joyeria_Parcial
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            this.joyeriaDataSet = new Joyeria_Parcial.joyeriaDataSet();
+            this.joyeriaDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.joyeriaDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.joyeriaDataSetBindingSource)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // joyeriaDataSet
+            // 
+            this.joyeriaDataSet.DataSetName = "joyeriaDataSet";
+            this.joyeriaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // joyeriaDataSetBindingSource
+            // 
+            this.joyeriaDataSetBindingSource.DataSource = this.joyeriaDataSet;
+            this.joyeriaDataSetBindingSource.Position = 0;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 373);
+            this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.joyeriaDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.joyeriaDataSetBindingSource)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private joyeriaDataSet joyeriaDataSet;
+        private System.Windows.Forms.BindingSource joyeriaDataSetBindingSource;
     }
 }
 
