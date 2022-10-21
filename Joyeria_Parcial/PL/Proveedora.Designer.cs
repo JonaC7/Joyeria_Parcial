@@ -53,9 +53,16 @@ namespace Joyeria_Parcial.PL
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
+            // txtnombres_repartidor
+            // 
+            txtnombres_repartidor.Location = new System.Drawing.Point(482, 102);
+            txtnombres_repartidor.Name = "txtnombres_repartidor";
+            txtnombres_repartidor.Size = new System.Drawing.Size(100, 20);
+            txtnombres_repartidor.TabIndex = 24;
+            // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(181, 459);
+            this.btnGuardar.Location = new System.Drawing.Point(67, 442);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(75, 23);
             this.btnGuardar.TabIndex = 31;
@@ -64,7 +71,7 @@ namespace Joyeria_Parcial.PL
             // 
             // btnActualizar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(302, 459);
+            this.btnActualizar.Location = new System.Drawing.Point(228, 442);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(75, 23);
             this.btnActualizar.TabIndex = 30;
@@ -73,7 +80,7 @@ namespace Joyeria_Parcial.PL
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(417, 459);
+            this.btnEliminar.Location = new System.Drawing.Point(368, 442);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 29;
@@ -82,7 +89,7 @@ namespace Joyeria_Parcial.PL
             // 
             // btnNuevo
             // 
-            this.btnNuevo.Location = new System.Drawing.Point(556, 459);
+            this.btnNuevo.Location = new System.Drawing.Point(503, 442);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(75, 23);
             this.btnNuevo.TabIndex = 28;
@@ -92,15 +99,15 @@ namespace Joyeria_Parcial.PL
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(173, 276);
+            this.dataGridView1.Location = new System.Drawing.Point(59, 259);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(458, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(519, 150);
             this.dataGridView1.TabIndex = 27;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(339, 20);
+            this.label1.Location = new System.Drawing.Point(225, 3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(124, 13);
             this.label1.TabIndex = 26;
@@ -108,35 +115,28 @@ namespace Joyeria_Parcial.PL
             // 
             // txtNombre_proveedor
             // 
-            this.txtNombre_proveedor.Location = new System.Drawing.Point(596, 49);
+            this.txtNombre_proveedor.Location = new System.Drawing.Point(482, 32);
             this.txtNombre_proveedor.Name = "txtNombre_proveedor";
             this.txtNombre_proveedor.Size = new System.Drawing.Size(100, 20);
             this.txtNombre_proveedor.TabIndex = 25;
             // 
-            // txtnombres_repartidor
-            // 
-            txtnombres_repartidor.Location = new System.Drawing.Point(596, 119);
-            txtnombres_repartidor.Name = "txtnombres_repartidor";
-            txtnombres_repartidor.Size = new System.Drawing.Size(100, 20);
-            txtnombres_repartidor.TabIndex = 24;
-            // 
             // txtProducto_proveedor
             // 
-            this.txtProducto_proveedor.Location = new System.Drawing.Point(280, 119);
+            this.txtProducto_proveedor.Location = new System.Drawing.Point(166, 102);
             this.txtProducto_proveedor.Name = "txtProducto_proveedor";
             this.txtProducto_proveedor.Size = new System.Drawing.Size(100, 20);
             this.txtProducto_proveedor.TabIndex = 23;
             // 
             // txtproveedor
             // 
-            this.txtproveedor.Location = new System.Drawing.Point(280, 53);
+            this.txtproveedor.Location = new System.Drawing.Point(166, 36);
             this.txtproveedor.Name = "txtproveedor";
             this.txtproveedor.Size = new System.Drawing.Size(100, 20);
             this.txtproveedor.TabIndex = 22;
             // 
             // txtIapellidos_repartidor
             // 
-            this.txtIapellidos_repartidor.Location = new System.Drawing.Point(280, 186);
+            this.txtIapellidos_repartidor.Location = new System.Drawing.Point(166, 169);
             this.txtIapellidos_repartidor.Name = "txtIapellidos_repartidor";
             this.txtIapellidos_repartidor.Size = new System.Drawing.Size(100, 20);
             this.txtIapellidos_repartidor.TabIndex = 21;
@@ -144,7 +144,7 @@ namespace Joyeria_Parcial.PL
             // lblId_proveedor
             // 
             this.lblId_proveedor.AutoSize = true;
-            this.lblId_proveedor.Location = new System.Drawing.Point(170, 189);
+            this.lblId_proveedor.Location = new System.Drawing.Point(56, 172);
             this.lblId_proveedor.Name = "lblId_proveedor";
             this.lblId_proveedor.Size = new System.Drawing.Size(99, 13);
             this.lblId_proveedor.TabIndex = 20;
@@ -153,7 +153,7 @@ namespace Joyeria_Parcial.PL
             // lblCodigo_producto
             // 
             this.lblCodigo_producto.AutoSize = true;
-            this.lblCodigo_producto.Location = new System.Drawing.Point(170, 122);
+            this.lblCodigo_producto.Location = new System.Drawing.Point(56, 105);
             this.lblCodigo_producto.Name = "lblCodigo_producto";
             this.lblCodigo_producto.Size = new System.Drawing.Size(104, 13);
             this.lblCodigo_producto.TabIndex = 19;
@@ -162,7 +162,7 @@ namespace Joyeria_Parcial.PL
             // lblid_compra
             // 
             this.lblid_compra.AutoSize = true;
-            this.lblid_compra.Location = new System.Drawing.Point(170, 56);
+            this.lblid_compra.Location = new System.Drawing.Point(56, 39);
             this.lblid_compra.Name = "lblid_compra";
             this.lblid_compra.Size = new System.Drawing.Size(72, 13);
             this.lblid_compra.TabIndex = 18;
@@ -171,7 +171,7 @@ namespace Joyeria_Parcial.PL
             // lblIdProducto
             // 
             this.lblIdProducto.AutoSize = true;
-            this.lblIdProducto.Location = new System.Drawing.Point(455, 52);
+            this.lblIdProducto.Location = new System.Drawing.Point(341, 35);
             this.lblIdProducto.Name = "lblIdProducto";
             this.lblIdProducto.Size = new System.Drawing.Size(98, 13);
             this.lblIdProducto.TabIndex = 17;
@@ -180,7 +180,7 @@ namespace Joyeria_Parcial.PL
             // lblNombres_repartidor
             // 
             this.lblNombres_repartidor.AutoSize = true;
-            this.lblNombres_repartidor.Location = new System.Drawing.Point(455, 126);
+            this.lblNombres_repartidor.Location = new System.Drawing.Point(341, 109);
             this.lblNombres_repartidor.Name = "lblNombres_repartidor";
             this.lblNombres_repartidor.Size = new System.Drawing.Size(99, 13);
             this.lblNombres_repartidor.TabIndex = 16;
@@ -188,7 +188,7 @@ namespace Joyeria_Parcial.PL
             // 
             // txtTelefono_proveedor
             // 
-            this.txtTelefono_proveedor.Location = new System.Drawing.Point(592, 182);
+            this.txtTelefono_proveedor.Location = new System.Drawing.Point(478, 165);
             this.txtTelefono_proveedor.Name = "txtTelefono_proveedor";
             this.txtTelefono_proveedor.Size = new System.Drawing.Size(100, 20);
             this.txtTelefono_proveedor.TabIndex = 33;
@@ -196,7 +196,7 @@ namespace Joyeria_Parcial.PL
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(454, 189);
+            this.label2.Location = new System.Drawing.Point(340, 172);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(103, 13);
             this.label2.TabIndex = 32;
@@ -204,7 +204,7 @@ namespace Joyeria_Parcial.PL
             // 
             // txtDireccion_proveedor
             // 
-            this.txtDireccion_proveedor.Location = new System.Drawing.Point(280, 234);
+            this.txtDireccion_proveedor.Location = new System.Drawing.Point(166, 217);
             this.txtDireccion_proveedor.Name = "txtDireccion_proveedor";
             this.txtDireccion_proveedor.Size = new System.Drawing.Size(100, 20);
             this.txtDireccion_proveedor.TabIndex = 35;
@@ -212,7 +212,7 @@ namespace Joyeria_Parcial.PL
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(170, 237);
+            this.label3.Location = new System.Drawing.Point(56, 220);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(106, 13);
             this.label3.TabIndex = 34;
@@ -223,7 +223,7 @@ namespace Joyeria_Parcial.PL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 501);
+            this.ClientSize = new System.Drawing.Size(630, 501);
             this.Controls.Add(this.txtDireccion_proveedor);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtTelefono_proveedor);
