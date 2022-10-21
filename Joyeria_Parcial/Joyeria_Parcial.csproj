@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -64,16 +65,73 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>joyeriaDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="PL\Compras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Compras.Designer.cs">
+      <DependentUpon>Compras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Empleados.Designer.cs">
+      <DependentUpon>Empleados.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PL\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Productos.Designer.cs">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Proveedora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Proveedora.Designer.cs">
+      <DependentUpon>Proveedora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Sedes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Sedes.Designer.cs">
+      <DependentUpon>Sedes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Ventas.Designer.cs">
+      <DependentUpon>Ventas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DAL\ComprasDAL.resx">
+      <DependentUpon>ComprasDAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Compras.resx">
+      <DependentUpon>Compras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Empleados.resx">
+      <DependentUpon>Empleados.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PL\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Productos.resx">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Proveedora.resx">
+      <DependentUpon>Proveedora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Sedes.resx">
+      <DependentUpon>Sedes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Ventas.resx">
+      <DependentUpon>Ventas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
